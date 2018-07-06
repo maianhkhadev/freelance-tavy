@@ -19,7 +19,33 @@
     <div id="root" class="layout-default">
       <header>
         <div class="container">
+          <nav class="navbar navbar-expand-xl">
+            <a class="navbar-brand" href="#">LOGO</a>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Về chúng tôi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Đá - Gạch</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nội thất từ thiên nhiên</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sản phẩm xanh</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Xúc tiến xuất nhập khẩu</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </header>
 
@@ -30,8 +56,26 @@
       <footer>
         <div class="container">
           <div class="row">
-            <div class="col-xl-12">
-              <div class="copyright">Copyright © 2018</div
+            <div class="col-xl-2">
+              <h1>LOGO</h1>
+              <a class="link" href="">Facebook</a>
+              <a class="link" href="">Facebook</a>
+              <a class="link" href="">Facebook</a>
+            </div>
+            <div class="col-xl-3 ml-auto">
+              <h2>Liên hệ</h2>
+              <p>308C Điện Biên Phủ, Phường 4, Quận 3, TP.HCM</p>
+              <p>
+                TEL (+84) 915 70 7777
+                FAX (+84) 915 70 7777
+              </p>
+              <p>info@tavy.com</p>
+            </div>
+            <div class="col-xl-3">
+              <h1>Sản phẩm</h1>
+              <a class="link" href="">Đá - Gạch</a>
+              <a class="link" href="">Nội thất làm từ thiên nhiên</a>
+              <a class="link" href="">Sản phẩm xanh</a>
             </div>
           </div>
         </div>

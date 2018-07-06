@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,300,600,800,900');
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather:300,400,700,900|Roboto+Mono');
 
 // Bootstrap
 @import "node_modules/bootstrap/scss/functions";
@@ -43,4 +43,26 @@ html {
   @media screen and (max-width: 600px) {
     font-size: 14px;
   }
+}
+
+
+.container {
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1180px;
+  }
+
+  // @media screen and (min-width: 1300px) {
+  //   max-width: 1280px;
+  // }
+  //
+  // @media screen and (min-width: 1400px) {
+  //   max-width: 1380px;
+  // }
+}
+
+.btn-main {
+  color: #674723;
+  background-color: #f0e7da;
+  border-color: #f0e7da;
 }

@@ -1,0 +1,50 @@
+.layout-default {
+  background-image: url("/images/bim.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.layout-default header .navbar {
+  padding-left: unset;
+  padding-right: unset;
+}
+
+.layout-default header .navbar .navbar-brand {
+  color: #665c4a;
+  font-size: 2.25rem;
+  font-family: 'Lato';
+  text-transform: uppercase;
+}
+
+.layout-default header .navbar .nav-item:last-child .nav-link {
+  padding-right: unset;
+}
+
+.layout-default header .navbar .nav-item .nav-link {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  text-transform: uppercase;
+  padding: 1.25rem;
+}
+
+.layout-default footer {
+  background-color: #404040;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.layout-default footer .link {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  text-transform: capitalize;
+  line-height: 2;
+}
+
+.layout-default footer .link:hover {
+  color: #ffffff;
+}
+

@@ -26,7 +26,7 @@ module: {
 }
 })
 
-mix.js('resources/assets/js/app.js', 'public/js');
+mix.js('resources/assets/js/app.js', 'public/js').extract(['vue']);
 mix.sass('resources/assets/sass/app.scss', 'public/css');
 mix.sass('resources/assets/sass/layout-default.scss', 'public/css');
 mix.sass('resources/assets/sass/page-welcome.scss', 'public/css');

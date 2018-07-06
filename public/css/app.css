@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato|Raleway:400,300,600,800,900);*,
+@import url(https://fonts.googleapis.com/css?family=Lato|Merriweather:300,400,700,900|Roboto+Mono);*,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
@@ -9114,5 +9114,17 @@ html {
   html {
     font-size: 14px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+  }
+}
+
+.btn-main {
+  color: #674723;
+  background-color: #f0e7da;
+  border-color: #f0e7da;
 }
 

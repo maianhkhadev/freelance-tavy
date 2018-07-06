@@ -1,0 +1,252 @@
+.page-welcome .section-02 {
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  overflow: hidden;
+}
+
+.page-welcome .section-02 h2 {
+  color: #4f4432;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  margin-top: 2.5rem;
+}
+
+.page-welcome .section-02 p {
+  color: #4f4432;
+  margin-bottom: 3rem;
+}
+
+.page-welcome .section-02 p.normal-font {
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+}
+
+.page-welcome .section-02 p.large-font {
+  font-size: 1.375rem;
+  font-family: 'Merriweather';
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.page-welcome .section-02 .call-to-action {
+  display: inline-block;
+  color: #674723;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.page-welcome .section-02 .deco-01 {
+  position: absolute;
+  bottom: -15rem;
+  left: 0;
+}
+
+.page-welcome .section-02 .deco-02 {
+  position: absolute;
+  bottom: -10rem;
+  right: 0;
+}
+
+.page-welcome .section-03 {
+  position: relative;
+  background-color: #8f7363;
+  padding-top: 6rem;
+  padding-bottom: 16rem;
+}
+
+.page-welcome .section-03 .section-header {
+  margin-bottom: 10rem;
+}
+
+.page-welcome .section-03 .section-header h2 {
+  color: #f0e7da;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.page-welcome .section-03 .section-content {
+  position: relative;
+  background-image: url("/images/page-welcome/section-03/section-content-bim.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  z-index: 1000;
+}
+
+.page-welcome .section-03 .section-content .block-product {
+  margin-top: 18rem;
+  margin-bottom: 18rem;
+}
+
+.page-welcome .section-03 .section-content .block-product figure {
+  -webkit-box-shadow: 0 2.5rem 8rem 0 rgba(54, 43, 37, 0.32);
+          box-shadow: 0 2.5rem 8rem 0 rgba(54, 43, 37, 0.32);
+  margin-top: -5rem;
+  margin-bottom: -5rem;
+}
+
+.page-welcome .section-03 .section-content .block-product figure img {
+  width: 100%;
+}
+
+.page-welcome .section-03 .section-content .block-product .block-content {
+  padding: 5rem;
+}
+
+.page-welcome .section-03 .section-content .block-product .block-content h3 {
+  color: rgba(240, 231, 218, 0.8);
+  font-size: 1.875rem;
+  font-family: 'Merriweather';
+  text-transform: capitalize;
+  margin-bottom: 2.5rem;
+}
+
+.page-welcome .section-03 .section-content .block-product .block-content p {
+  color: rgba(231, 228, 223, 0.7);
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+  margin-bottom: 5rem;
+}
+
+.page-welcome .section-03 .section-content .block-product .block-content button {
+  color: #674723;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  border-radius: unset;
+  padding: 1.125rem 1.75rem;
+}
+
+.page-welcome .section-03 .section-content .block-product:nth-of-type(odd) figure {
+  margin-left: 0.25rem;
+  margin-right: -3.25rem;
+}
+
+.page-welcome .section-03 .section-content .block-product:nth-of-type(odd) .block-content {
+  text-align: right;
+}
+
+.page-welcome .section-03 .section-content .block-product:nth-of-type(even) figure {
+  margin-left: -3.25rem;
+  margin-right: 0.25rem;
+}
+
+.page-welcome .section-03 .section-content .block-product:nth-of-type(even) .block-content {
+  text-align: left;
+}
+
+.page-welcome .section-03 .section-content .block-product:first-child {
+  margin-top: unset;
+}
+
+.page-welcome .section-03 .section-content .block-product:first-child figure {
+  margin-top: -5rem;
+  margin-bottom: -1rem;
+}
+
+.page-welcome .section-03 .section-content .block-product:last-child {
+  margin-bottom: unset;
+}
+
+.page-welcome .section-03 .section-content .block-product:last-child figure {
+  margin-top: -1rem;
+  margin-bottom: -5rem;
+}
+
+.page-welcome .section-03 .deco-01 {
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+}
+
+.page-welcome .section-03 .deco-02 {
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.page-welcome .section-03 .deco-03 {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+}
+
+.page-welcome .section-04 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-welcome .section-04 .section-header {
+  margin-bottom: 2.5rem;
+}
+
+.page-welcome .section-04 .section-header h2 {
+  color: #4f4432;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.page-welcome .section-04 .section-content .embed-responsive {
+  margin-bottom: 2.5rem;
+}
+
+.page-welcome .section-04 .section-content p {
+  color: #462f21;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  text-align: center;
+  line-height: 2;
+}
+
+.page-welcome .section-05 {
+  position: relative;
+  background-color: #e7e4df;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  overflow: hidden;
+}
+
+.page-welcome .section-05 .section-header {
+  margin-bottom: 3rem;
+}
+
+.page-welcome .section-05 .section-header h2 {
+  color: #3c3934;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+}
+
+.page-welcome .section-05 .section-header h4 {
+  color: #3c3934;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+}
+
+.page-welcome .section-05 .section-content form .form-group .form-control {
+  padding: 1.125rem 1.875rem;
+}
+
+.page-welcome .section-05 .deco-01 {
+  position: absolute;
+  bottom: -5rem;
+  right: -5rem;
+}
+
