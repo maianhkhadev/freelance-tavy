@@ -14,19 +14,19 @@ let mix = require('laravel-mix');
 mix.browserSync('127.0.0.1:8000')
 
 mix.webpackConfig({
-  module: {
-    rules: [{
-      test: /\.(png|jpe?g|gif)$/,
-      loader: 'file-loader',
-      options: {
-          name: 'images/[name].[hash].[ext]',
-          publicPath: '/'
-      }
-    }]
-  }
+module: {
+  rules: [{
+    test: /\.(png|jpe?g|gif)$/,
+    loader: 'file-loader',
+    options: {
+        name: 'images/[name].[hash].[ext]',
+        publicPath: '/'
+    }
+  }]
+}
 })
 
- mix.js('resources/assets/js/app.js', 'public/js').extract(['vue'])
- mix.sass('resources/assets/scss/app.scss', 'public/css')
- mix.sass('resources/assets/scss/layout.default.scss', 'public/css')
- mix.sass('resources/assets/scss/welcome.scss', 'public/css')
+mix.js('resources/assets/js/app.js', 'public/js');
+mix.sass('resources/assets/sass/app.scss', 'public/css');
+mix.sass('resources/assets/sass/layout-default.scss', 'public/css');
+mix.sass('resources/assets/sass/page-welcome.scss', 'public/css');

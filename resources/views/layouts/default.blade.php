@@ -12,30 +12,14 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/layout.default.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/layout-default.css') }}" rel="stylesheet">
     @yield('stylesheet')
 </head>
 <body>
-    <div id="root">
+    <div id="root" class="layout-default">
       <header>
         <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <a class="home" href="{{ route('home') }}">Focus Asia</a>
-            </div>
-            <div class="col-6">
-              <div class="user">
-                <div class="name">{{ auth()->user()->name }}</div>
-                <a class="action" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                  Click to sign out
-                </a>
 
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                  {{ csrf_field() }}
-                </form>
-              </div>
-            </div>
-          </div>
         </div>
       </header>
 
