@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/stone-and-brick', function () {
+    return view('stone-and-brick');
+});

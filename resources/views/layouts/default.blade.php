@@ -18,7 +18,7 @@
 <body>
     <div id="root" class="layout-default">
       <header>
-        <div class="container">
+        <div class="container-fluid">
           <nav class="navbar navbar-expand-xl">
             <a class="navbar-brand" href="#">LOGO</a>
 
@@ -59,20 +59,20 @@
             <div class="col-xl-2">
               <h1>LOGO</h1>
               <a class="link" href="">Facebook</a>
-              <a class="link" href="">Facebook</a>
-              <a class="link" href="">Facebook</a>
+              <a class="link" href="">Instagram</a>
+              <a class="link" href="">Twitter</a>
             </div>
             <div class="col-xl-3 ml-auto">
               <h2>Liên hệ</h2>
               <p>308C Điện Biên Phủ, Phường 4, Quận 3, TP.HCM</p>
               <p>
-                TEL (+84) 915 70 7777
+                TEL (+84) 915 70 7777<br>
                 FAX (+84) 915 70 7777
               </p>
               <p>info@tavy.com</p>
             </div>
             <div class="col-xl-3">
-              <h1>Sản phẩm</h1>
+              <h2>Sản phẩm</h2>
               <a class="link" href="">Đá - Gạch</a>
               <a class="link" href="">Nội thất làm từ thiên nhiên</a>
               <a class="link" href="">Sản phẩm xanh</a>

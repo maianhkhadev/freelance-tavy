@@ -4,12 +4,30 @@
   <link href="{{ asset('css/page-welcome.css') }}" rel="stylesheet">
 @endsection
 
+@section('javascript')
+  <script src="{{ asset('js/page-welcome.js') }}"></script>
+@endsection
+
 @section('content')
   <div class="page page-welcome">
     <section class="section-01">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-xl-12">
+            <div class="slick">
+      				<div>
+      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
+      				</div>
+      				<div>
+      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
+      				</div>
+      				<div>
+      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
+      				</div>
+      				<div>
+      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
+      				</div>
+      			</div>
           </div>
         </div>
       </div>
@@ -32,7 +50,7 @@
             <p class="large-font">Bên cạnh đó, với mong muốn giới thiệu các sản phẩm chất lượng, đầy bản sắc từ Việt Nam đến thế giới, chúng tôi mở rộng dịch vụ xúc tiến thương mại, tư vấn nhập khẩu, tìm nhà cung cấp / gia công sản phẩm bạn có nhu cầu bằng kinh nghiệm làm việc với các đối tác Việt Nam, cùng đội ngũ nhân sự am hiểu thị trường và văn hóa địa phương.</p>
             <p class="large-font">Đừng ngần ngại liên lạc với Tavy Corporate để chúng tôi có cơ hội cung cấp cho bạn những thông tin chi tiết hữu ích và chiến lược hơn!</p>
 
-            <a class="call-to-action" href="#">Liên Hệ</a>
+            <a class="call-to-action" href="#">Liên Hệ &rarr;</a>
           </div>
         </div>
       </div>
@@ -138,19 +156,21 @@
             <div class="section-content">
               <form>
                 <div class="form-group">
-                  <input type="email" class="form-control" placeholder="name@example.com">
+                  <input type="text" class="form-control" placeholder="Fullname">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" placeholder="name@example.com">
+                  <input type="email" class="form-control" placeholder="Email">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" placeholder="name@example.com">
+                  <input type="text" class="form-control" placeholder="Phone">
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" rows="3"></textarea>
+                  <textarea class="form-control" rows="3" placeholder="Message"></textarea>
                 </div>
 
-                <button class="btn btn-main">Gửi</button>
+                <div class="form-footer">
+                  <a class="" href="#">Gửi &rarr;</a>
+                </div>
               </form>
             </div>
           </div>

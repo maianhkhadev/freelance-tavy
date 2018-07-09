@@ -1,3 +1,22 @@
+.page-welcome .section-01 .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.page-welcome .section-01 .slick-dots {
+  bottom: 2.5rem;
+}
+
+.page-welcome .section-01 .slick-dots li button:before {
+  color: #ffffff;
+  font-size: 1rem;
+  opacity: 0.75;
+}
+
+.page-welcome .section-01 .slick-dots li.slick-active button:before {
+  color: #ffffff;
+  opacity: 1;
+}
+
 .page-welcome .section-02 {
   position: relative;
   padding-top: 6rem;
@@ -106,7 +125,7 @@
   font-size: 1.875rem;
   font-family: 'Merriweather';
   text-transform: capitalize;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .page-welcome .section-03 .section-content .block-product .block-content p {
@@ -114,7 +133,7 @@
   font-size: 1rem;
   font-family: 'Merriweather';
   line-height: 2;
-  margin-bottom: 5rem;
+  margin-bottom: 3.5rem;
 }
 
 .page-welcome .section-03 .section-content .block-product .block-content button {
@@ -241,7 +260,30 @@
 }
 
 .page-welcome .section-05 .section-content form .form-group .form-control {
+  color: rgba(60, 57, 52, 0.5);
+  background-color: transparent;
+  border-color: rgba(60, 57, 52, 0.5);
+  border-radius: unset;
   padding: 1.125rem 1.875rem;
+}
+
+.page-welcome .section-05 .section-content form .form-group .form-control:focus {
+  color: #3c3934;
+  border-color: #3c3934;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.page-welcome .section-05 .section-content form .form-footer {
+  text-align: right;
+  margin-top: 3rem;
+}
+
+.page-welcome .section-05 .section-content form .form-footer a {
+  color: #3c3934;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
 }
 
 .page-welcome .section-05 .deco-01 {

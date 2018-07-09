@@ -1,0 +1,233 @@
+.page-stone-and-brick .page-header {
+  position: relative;
+  background-image: url("/images/page-stone-and-brick/page-header-bim.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.page-stone-and-brick .page-header::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.page-stone-and-brick .page-header h1 {
+  position: relative;
+  color: #ebe3d6;
+  font-size: 4rem;
+  font-family: 'Merriweather';
+  z-index: 10;
+}
+
+.page-stone-and-brick .page-nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fffaf2;
+}
+
+.page-stone-and-brick .page-nav .nav-item {
+  position: relative;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.page-stone-and-brick .page-nav .nav-item::after {
+  content: '';
+  background-color: rgba(142, 131, 124, 0.3);
+  position: absolute;
+  top: 50%;
+  right: -0.0625rem;
+  width: 0.125rem;
+  height: 2rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.page-stone-and-brick .page-nav .nav-item:first-child {
+  padding-left: unset;
+}
+
+.page-stone-and-brick .page-nav .nav-item:last-child {
+  padding-right: unset;
+}
+
+.page-stone-and-brick .page-nav .nav-item:last-child::after {
+  content: unset;
+}
+
+.page-stone-and-brick .page-nav .nav-link {
+  color: rgba(79, 68, 50, 0.7);
+  background-color: transparent;
+  font-size: 1.375rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  text-transform: capitalize;
+  border: unset;
+  border-bottom: 0.125rem solid transparent;
+  padding: 2.25rem 1.75rem;
+}
+
+.page-stone-and-brick .page-nav .nav-link.active {
+  color: #4f4432;
+  border-bottom-color: #4f4432;
+}
+
+.page-stone-and-brick .page-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content h2 {
+  color: #4f4432;
+  font-size: 2.25rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-figures {
+  background-color: #fffaf2;
+  padding: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 3.5rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-figures figure {
+  margin-bottom: 3rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-figures figure img {
+  margin-bottom: 1.25rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-figures figure figcaption {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-marble-slab-sizes {
+  text-align: center;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-marble-slab-sizes h3 {
+  color: #4f4432;
+  font-size: 1.75rem;
+  font-family: 'Merriweather';
+  margin-bottom: 2.5rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-marble-slab-sizes img {
+  margin-bottom: 1.75rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-marble-slab-sizes .type {
+  color: rgba(79, 68, 50, 0.7);
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  margin-bottom: 0.75rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-marble-slab-sizes .size {
+  color: #4f4432;
+  font-size: 1.375rem;
+  font-family: 'Merriweather';
+  margin-bottom: 0.75rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .stone-content .block-marble-slab-sizes small {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  font-style: italic;
+}
+
+.page-stone-and-brick .page-content #tab-02 .brick-content .tab-pane {
+  background-color: #fffaf2;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.page-stone-and-brick #tab-01 .section-01 h1,
+.page-stone-and-brick #tab-02 .section-01 h1 {
+  color: #4f4432;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.page-stone-and-brick #tab-01 .section-01 p,
+.page-stone-and-brick #tab-02 .section-01 p {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+}
+
+.page-stone-and-brick #tab-01 .section-01 blockquote,
+.page-stone-and-brick #tab-02 .section-01 blockquote {
+  color: #4f4432;
+  font-size: 1.375rem;
+  font-family: 'Merriweather';
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.page-stone-and-brick #tab-01 .section-01 img,
+.page-stone-and-brick #tab-02 .section-01 img {
+  margin-bottom: 3rem;
+}
+
+.page-stone-and-brick #tab-01 .deco-01,
+.page-stone-and-brick #tab-02 .deco-01 {
+  width: 100%;
+  margin-top: 5.25rem;
+  margin-bottom: 6.25rem;
+}
+
+.page-stone-and-brick #tab-01 .section-02 .nav-tabs,
+.page-stone-and-brick #tab-02 .section-02 .nav-tabs {
+  background-color: transparent;
+  border-top: 0.0625rem solid rgba(120, 95, 80, 0.2);
+  border-bottom: 0.0625rem solid rgba(120, 95, 80, 0.2);
+}
+
+.page-stone-and-brick #tab-01 .section-02 .nav-tabs .nav-link,
+.page-stone-and-brick #tab-02 .section-02 .nav-tabs .nav-link {
+  color: rgba(79, 68, 50, 0.7);
+  background-color: transparent;
+  font-size: 1.125rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  text-transform: capitalize;
+  border: unset;
+  border-bottom: 0.125rem solid transparent;
+  padding: 1.5rem 1.75rem;
+}
+
+.page-stone-and-brick #tab-01 .section-02 .nav-tabs .nav-link.active,
+.page-stone-and-brick #tab-02 .section-02 .nav-tabs .nav-link.active {
+  color: #4f4432;
+  border-bottom-color: #4f4432;
+}
+
+.page-stone-and-brick #tab-01 .section-02 .tab-content,
+.page-stone-and-brick #tab-02 .section-02 .tab-content {
+  padding-top: 3.5rem;
+}
+

@@ -1,0 +1,253 @@
+.page-stone-and-brick {
+
+  .page-header {
+    position: relative;
+    background-image: url('~/images/page-stone-and-brick/page-header-bim.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    &::before {
+      content: '';
+      background-color: rgba(#000000, 0.25);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    h1 {
+      position: relative;
+      color: #ebe3d6;
+      font-size: 4rem;
+      font-family: 'Merriweather';
+      z-index: 10;
+    }
+  }
+
+  .page-nav {
+    justify-content: center;
+    background-color: #fffaf2;
+
+    .nav-item {
+      position: relative;
+      padding-left: 3rem;
+      padding-right: 3rem;
+
+      &::after {
+        content: '';
+        background-color: rgba(#8e837c, 0.3);
+        position: absolute;
+        top: 50%;
+        right: -0.0625rem;
+        width: 0.125rem;
+        height: 2rem;
+        transform: translateY(-50%);
+      }
+
+      &:first-child {
+        padding-left: unset;
+      }
+
+      &:last-child {
+        padding-right: unset;
+
+        &::after {
+          content: unset;
+        }
+      }
+    }
+
+    .nav-link {
+      color: rgba(#4f4432, 0.7);
+      background-color: transparent;
+      font-size: 1.375rem;
+      font-family: 'Merriweather';
+      font-weight: 700;
+      text-transform: capitalize;
+      border: unset;
+      border-bottom: 0.125rem solid transparent;
+      padding: 2.25rem 1.75rem;
+
+      &.active {
+        color: #4f4432;
+        border-bottom-color: #4f4432;
+      }
+    }
+  }
+
+  .page-content {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    #tab-01 {
+
+      .stone-nav {
+
+      }
+
+      .stone-content {
+
+        h2 {
+          color: #4f4432;
+          font-size: 2.25rem;
+          font-family: 'Merriweather';
+          font-weight: 900;
+          margin-bottom: 1.5rem;
+        }
+
+        .block-figures {
+          background-color: #fffaf2;
+          padding: 2rem;
+          padding-bottom: 0;
+          margin-bottom: 3.5rem;
+
+          figure {
+            margin-bottom: 3rem;
+
+            img {
+              margin-bottom: 1.25rem;
+            }
+
+            figcaption {
+              color: #4f4432;
+              font-size: 1rem;
+              font-family: 'Merriweather';
+            }
+          }
+        }
+
+        .block-marble-slab-sizes {
+          text-align: center;
+
+          h3 {
+            color: #4f4432;
+            font-size: 1.75rem;
+            font-family: 'Merriweather';
+            margin-bottom: 2.5rem;
+          }
+
+          img {
+            margin-bottom: 1.75rem;
+          }
+
+          .type {
+            color: rgba(#4f4432, 0.7);
+            font-size: 1rem;
+            font-family: 'Merriweather';
+            font-weight: 900;
+            margin-bottom: 0.75rem;
+          }
+
+          .size {
+            color: #4f4432;
+            font-size: 1.375rem;
+            font-family: 'Merriweather';
+            margin-bottom: 0.75rem;
+          }
+
+          small {
+            color: #4f4432;
+            font-size: 1rem;
+            font-family: 'Merriweather';
+            font-style: italic;
+          }
+        }
+      }
+    }
+
+    #tab-02 {
+
+      .brick-nav {
+
+      }
+
+      .brick-content {
+
+        .tab-pane {
+          background-color: #fffaf2;
+          padding-top: 3rem;
+          padding-bottom: 3rem;
+        }
+      }
+    }
+  }
+
+  #tab-01, #tab-02 {
+
+    .section-01 {
+
+      h1 {
+        color: #4f4432;
+        font-size: 3rem;
+        font-family: 'Merriweather';
+        font-weight: 900;
+        margin-bottom: 3rem;
+      }
+
+      p {
+        color: #4f4432;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+      }
+
+      blockquote {
+        color: #4f4432;
+        font-size: 1.375rem;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-style: italic;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+
+      img {
+        margin-bottom: 3rem;
+      }
+    }
+
+    .deco-01 {
+      width: 100%;
+      margin-top: 5.25rem;
+      margin-bottom: 6.25rem;
+    }
+
+    .section-02 {
+
+      .nav-tabs {
+        background-color: transparent;
+        border-top: 0.0625rem solid rgba(#785f50, 0.2);
+        border-bottom: 0.0625rem solid rgba(#785f50, 0.2);
+
+        .nav-link {
+          color: rgba(#4f4432, 0.7);
+          background-color: transparent;
+          font-size: 1.125rem;
+          font-family: 'Merriweather';
+          font-weight: 700;
+          text-transform: capitalize;
+          border: unset;
+          border-bottom: 0.125rem solid transparent;
+          padding: 1.5rem 1.75rem;
+
+          &.active {
+            color: #4f4432;
+            border-bottom-color: #4f4432;
+          }
+        }
+      }
+
+      .tab-content {
+        padding-top: 3.5rem;
+
+      }
+    }
+  }
+}
