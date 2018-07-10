@@ -29,6 +29,35 @@
   padding: 1.25rem;
 }
 
+.layout-default main .page .page-header {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.layout-default main .page .page-header::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.layout-default main .page .page-header h1 {
+  position: relative;
+  color: #ebe3d6;
+  font-size: 4rem;
+  font-family: 'Merriweather';
+  z-index: 10;
+}
+
 .layout-default footer {
   background-color: #404040;
   padding-top: 5rem;

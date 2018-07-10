@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+
 Route::get('/stone-and-brick', function () {
     return view('stone-and-brick');
 });

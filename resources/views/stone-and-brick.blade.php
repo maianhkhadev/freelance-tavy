@@ -144,162 +144,10 @@
                 </div>
               </div>
               <div id="stone-tab-02" class="tab-pane fade">
-                <h2>White Marble Slabs</h2>
-
-                <div class="block-figures">
-                  <div class="row">
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="block-marble-slab-sizes">
-                  <h3>Polished White Marble Slabs are available in various sizes up to gang-saw size:</h3>
-
-                  <div class="row">
-                    <div class="col-xl-3 text-center mx-auto">
-                      <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-01.png') }}" alt=""/>
-                      <div class="type">Width ranging</div>
-                      <div class="size">from 1m to 2m</div>
-                    </div>
-                    <div class="col-xl-3 text-center mx-auto">
-                      <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-02.png') }}" alt=""/>
-                      <div class="type">Length ranging</div>
-                      <div class="size">from 2m to 3m</div>
-                    </div>
-                    <div class="col-xl-3 text-center mx-auto">
-                      <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-03.png') }}" alt=""/>
-                      <div class="type">Thickness</div>
-                      <div class="size">from 1.5m to 5m</div>
-                      <small>(based on requests from customers)</small>
-                    </div>
-                  </div>
-                </div>
+                <h2>White Marble Block</h2>
               </div>
               <div id="stone-tab-03" class="tab-pane fade">
-                <h2>White Marble Slabs</h2>
-
-                <div class="block-figures">
-                  <div class="row">
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                    <div class="col-xl-3">
-                      <figure class="figure">
-                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
-                        <figcaption>A1 grade & big sizes</figcaption>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="block-marble-slab-sizes">
-                  <h3>Polished White Marble Slabs are available in various sizes up to gang-saw size:</h3>
-
-                  <div class="row">
-                    <div class="col-xl-3 text-center mx-auto">
-                      <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-01.png') }}" alt=""/>
-                      <div class="type">Width ranging</div>
-                      <div class="size">from 1m to 2m</div>
-                    </div>
-                    <div class="col-xl-3 text-center mx-auto">
-                      <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-02.png') }}" alt=""/>
-                      <div class="type">Length ranging</div>
-                      <div class="size">from 2m to 3m</div>
-                    </div>
-                    <div class="col-xl-3 text-center mx-auto">
-                      <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-03.png') }}" alt=""/>
-                      <div class="type">Thickness</div>
-                      <div class="size">from 1.5m to 5m</div>
-                      <small>(based on requests from customers)</small>
-                    </div>
-                  </div>
-                </div>
+                <h2>White Marble Tiles</h2>
               </div>
             </div>
           </div>
@@ -310,18 +158,20 @@
         <section class="section-01">
           <div class="container">
             <div class="row">
+              <div class="col-xl-12">
+                <h1>Gạch làm tay</h1>
+              </div>
               <div class="col-xl-6">
-                <h2>Gạch làm tay</h2>
                 <p>Gạch bông là sản phẩm được làm bằng tay, hoàn toàn thủ công, vì vậy, viên gạch không thể giống hệt nhau từng viên một. Những sai lệch nhỏ về kích thước, màu sắc, mức độ không hoàn hảo nhỏ, các cạnh gạch không đều là những đặc tính gắn liền với sản phẩm. Chính điều này làm tăng thêm vẻ đẹp tự nhiên mà không làm ảnh hưởng đến chất lượng. Sản xuất gạch bông là một nghệ thuật, được lưu truyền từ đời này qua đời khác. </p>
                 <blockquote>“Mỗi viên gạch ra đời là niềm tự hào của mỗi người thợ, người nghệ nhân.”</blockquote>
               </div>
               <div class="col-xl-6">
-                <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-01/im-01.jpg') }}" alt=""/>
+                <img src="{{ asset('images/page-stone-and-brick/tab-02/section-01/im-01.jpg') }}" alt=""/>
               </div>
             </div>
             <div class="row">
               <div class="col-xl-6">
-                <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-01/im-02.jpg') }}" alt=""/>
+                <img class="left" src="{{ asset('images/page-stone-and-brick/tab-02/section-01/im-02.jpg') }}" alt=""/>
               </div>
               <div class="col-xl-6">
                 <p>Với họ, viên gạch là thành quả của sự lao động và là một di sản được truyền lại cho tất cả mọi người. Gạch bông không nung chúng tôi cung cấp có thể tái chế và thân thiện với môi trường với những nguyên vật liệu tự nhiên và không sử dụng nhiên liệu đốt trong quá trình sản xuất. Vẫn là những phương pháp sản xuất thủ công truyền thống, nhưng với sự cải tiết vượt bậc về công nghệ và không ngừng học hỏi kỹ- mỹ thuật tiên tiến nên mỗi viên gạch bông được thiết kế và làm ra luôn đem lại điều mới lạ cho không gian của bạn.</p>

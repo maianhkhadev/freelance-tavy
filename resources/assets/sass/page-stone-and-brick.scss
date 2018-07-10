@@ -1,33 +1,7 @@
 .page-stone-and-brick {
 
   .page-header {
-    position: relative;
     background-image: url('~/images/page-stone-and-brick/page-header-bim.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-
-    &::before {
-      content: '';
-      background-color: rgba(#000000, 0.25);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 0;
-    }
-
-    h1 {
-      position: relative;
-      color: #ebe3d6;
-      font-size: 4rem;
-      font-family: 'Merriweather';
-      z-index: 10;
-    }
   }
 
   .page-nav {
@@ -86,6 +60,13 @@
     padding-bottom: 5rem;
 
     #tab-01 {
+
+      .section-01 {
+
+        img {
+          margin-bottom: 3rem;
+        }
+      }
 
       .stone-nav {
 
@@ -163,6 +144,18 @@
 
     #tab-02 {
 
+      .section-01 {
+
+
+        img {
+          width: 50vw;
+
+          &.left {
+            transform: translateX(-20%);
+          }
+        }
+      }
+
       .brick-nav {
 
       }
@@ -205,10 +198,6 @@
         padding-left: 6rem;
         padding-right: 6rem;
         margin-top: 3rem;
-        margin-bottom: 3rem;
-      }
-
-      img {
         margin-bottom: 3rem;
       }
     }
