@@ -1,0 +1,74 @@
+.page-furniture {
+
+  .page-header {
+    background-image: url('~/images/page-furniture/page-header-bim.jpg');
+  }
+
+  .page-content {
+    padding-top: 5rem;
+
+    .tab-pane {
+
+      section {
+        margin-bottom: 4rem;
+
+        .section-header {
+          margin-bottom: 4rem;
+
+          h2 {
+            color: #4f4432;
+            font-size: 3rem;
+            font-family: 'Merriweather';
+            font-weight: 900;
+            margin-bottom: unset;
+          }
+        }
+
+        p {
+          color: #4f4432;
+          font-size: 1rem;
+          font-family: 'Merriweather';
+          line-height: 2;
+        }
+      }
+
+      .deco {
+        width: 33.125%;
+        margin-bottom: 6.25rem;
+
+        @media screen and (max-width: 600px) {
+          width: 100%;
+          margin-bottom: 0.25rem;
+
+          &:last-child {
+            margin-bottom: 6.25rem;
+          }
+        }
+      }
+    }
+
+    .section-02 {
+      background-color: #8f7363;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+
+      .section-header {
+        margin-bottom: 5rem;
+
+        h2 {
+          color: #f6eee0;
+          font-size: 3rem;
+          font-family: 'Merriweather';
+          font-weight: 900;
+          text-align: center;
+          margin-bottom: unset;
+        }
+      }
+
+      img {
+        max-width: 100%;
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+}

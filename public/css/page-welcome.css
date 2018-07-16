@@ -17,11 +17,25 @@
   opacity: 1;
 }
 
+.page-welcome .section-01 .slide {
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: calc(100vh - 5rem - 15px);
+}
+
 .page-welcome .section-02 {
   position: relative;
   padding-top: 6rem;
   padding-bottom: 8rem;
   overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-02 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 .page-welcome .section-02 h2 {
@@ -32,9 +46,22 @@
   margin-top: 2.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-02 h2 {
+    margin-top: unset;
+    margin-bottom: 3rem;
+  }
+}
+
 .page-welcome .section-02 p {
   color: #4f4432;
   margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-02 p {
+    margin-bottom: 1rem;
+  }
 }
 
 .page-welcome .section-02 p.normal-font {
@@ -48,6 +75,14 @@
   font-family: 'Merriweather';
   font-weight: 300;
   line-height: 1.75;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-02 p.large-font {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+  }
 }
 
 .page-welcome .section-02 .call-to-action {
@@ -65,10 +100,22 @@
   left: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-02 .deco-01 {
+    display: none;
+  }
+}
+
 .page-welcome .section-02 .deco-02 {
   position: absolute;
   bottom: -10rem;
   right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-02 .deco-02 {
+    display: none;
+  }
 }
 
 .page-welcome .section-03 {
@@ -78,8 +125,21 @@
   padding-bottom: 16rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
 .page-welcome .section-03 .section-header {
   margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-header {
+    margin-bottom: 3rem;
+  }
 }
 
 .page-welcome .section-03 .section-header h2 {
@@ -105,11 +165,25 @@
   margin-bottom: 18rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+}
+
 .page-welcome .section-03 .section-content .block-product figure {
   -webkit-box-shadow: 0 2.5rem 8rem 0 rgba(54, 43, 37, 0.32);
           box-shadow: 0 2.5rem 8rem 0 rgba(54, 43, 37, 0.32);
   margin-top: -5rem;
   margin-bottom: -5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product figure {
+    margin-top: unset;
+    margin-bottom: unset;
+  }
 }
 
 .page-welcome .section-03 .section-content .block-product figure img {
@@ -120,6 +194,13 @@
   padding: 5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product .block-content {
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
 .page-welcome .section-03 .section-content .block-product .block-content h3 {
   color: rgba(240, 231, 218, 0.8);
   font-size: 1.875rem;
@@ -128,12 +209,24 @@
   margin-bottom: 3.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product .block-content h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+
 .page-welcome .section-03 .section-content .block-product .block-content p {
   color: rgba(231, 228, 223, 0.7);
   font-size: 1rem;
   font-family: 'Merriweather';
   line-height: 2;
   margin-bottom: 3.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product .block-content p {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .page-welcome .section-03 .section-content .block-product .block-content button {
@@ -150,6 +243,13 @@
   margin-right: -3.25rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product:nth-of-type(odd) figure {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+
 .page-welcome .section-03 .section-content .block-product:nth-of-type(odd) .block-content {
   text-align: right;
 }
@@ -157,6 +257,13 @@
 .page-welcome .section-03 .section-content .block-product:nth-of-type(even) figure {
   margin-left: -3.25rem;
   margin-right: 0.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product:nth-of-type(even) figure {
+    margin-left: unset;
+    margin-right: unset;
+  }
 }
 
 .page-welcome .section-03 .section-content .block-product:nth-of-type(even) .block-content {
@@ -172,6 +279,13 @@
   margin-bottom: -1rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product:first-child figure {
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+}
+
 .page-welcome .section-03 .section-content .block-product:last-child {
   margin-bottom: unset;
 }
@@ -181,10 +295,23 @@
   margin-bottom: -5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .section-content .block-product:last-child figure {
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+}
+
 .page-welcome .section-03 .deco-01 {
   position: absolute;
   top: 10rem;
   left: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .deco-01 {
+    display: none;
+  }
 }
 
 .page-welcome .section-03 .deco-02 {
@@ -195,10 +322,22 @@
           transform: translateY(50%);
 }
 
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .deco-02 {
+    display: none;
+  }
+}
+
 .page-welcome .section-03 .deco-03 {
   position: absolute;
   bottom: 0rem;
   left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-03 .deco-03 {
+    display: none;
+  }
 }
 
 .page-welcome .section-04 {
@@ -207,7 +346,7 @@
 }
 
 .page-welcome .section-04 .section-header {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .page-welcome .section-04 .section-header h2 {
@@ -290,5 +429,11 @@
   position: absolute;
   bottom: -5rem;
   right: -5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-welcome .section-05 .deco-01 {
+    display: none;
+  }
 }
 

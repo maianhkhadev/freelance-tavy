@@ -2,60 +2,6 @@
   background-image: url("/images/page-stone-and-brick/page-header-bim.jpg");
 }
 
-.page-stone-and-brick .page-nav {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #fffaf2;
-}
-
-.page-stone-and-brick .page-nav .nav-item {
-  position: relative;
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.page-stone-and-brick .page-nav .nav-item::after {
-  content: '';
-  background-color: rgba(142, 131, 124, 0.3);
-  position: absolute;
-  top: 50%;
-  right: -0.0625rem;
-  width: 0.125rem;
-  height: 2rem;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.page-stone-and-brick .page-nav .nav-item:first-child {
-  padding-left: unset;
-}
-
-.page-stone-and-brick .page-nav .nav-item:last-child {
-  padding-right: unset;
-}
-
-.page-stone-and-brick .page-nav .nav-item:last-child::after {
-  content: unset;
-}
-
-.page-stone-and-brick .page-nav .nav-link {
-  color: rgba(79, 68, 50, 0.7);
-  background-color: transparent;
-  font-size: 1.375rem;
-  font-family: 'Merriweather';
-  font-weight: 700;
-  text-transform: capitalize;
-  border: unset;
-  border-bottom: 0.125rem solid transparent;
-  padding: 2.25rem 1.75rem;
-}
-
-.page-stone-and-brick .page-nav .nav-link.active {
-  color: #4f4432;
-  border-bottom-color: #4f4432;
-}
-
 .page-stone-and-brick .page-content {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -63,6 +9,11 @@
 
 .page-stone-and-brick .page-content #tab-01 .section-01 img {
   margin-bottom: 3rem;
+}
+
+.page-stone-and-brick .page-content #tab-01 .section-01 blockquote {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .page-stone-and-brick .page-content #tab-01 .stone-content h2 {
@@ -140,10 +91,47 @@
           transform: translateX(-20%);
 }
 
+.page-stone-and-brick .page-content #tab-02 .section-01 .space {
+  width: 100%;
+  height: 5rem;
+}
+
 .page-stone-and-brick .page-content #tab-02 .brick-content .tab-pane {
   background-color: #fffaf2;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.page-stone-and-brick .page-content #tab-02 .brick-content .tab-pane .step {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.page-stone-and-brick .page-content #tab-02 .brick-content .tab-pane .step h4 {
+  color: #4f4432;
+  font-size: 1.125rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.page-stone-and-brick .page-content #tab-02 .brick-content .tab-pane .step p {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+  margin-bottom: 2.25rem;
+}
+
+.page-stone-and-brick .page-content #tab-02 .brick-content .tab-pane .block-figures {
+  background-color: #fffaf2;
+  padding: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 3.5rem;
+}
+
+.page-stone-and-brick .page-content #tab-02 .brick-content .tab-pane .block-figures figure {
+  margin-bottom: 3rem;
 }
 
 .page-stone-and-brick #tab-01 .section-01 h1,
@@ -160,6 +148,7 @@
   color: #4f4432;
   font-size: 1rem;
   font-family: 'Merriweather';
+  line-height: 2;
 }
 
 .page-stone-and-brick #tab-01 .section-01 blockquote,
@@ -169,8 +158,6 @@
   font-family: 'Merriweather';
   font-weight: 300;
   font-style: italic;
-  padding-left: 6rem;
-  padding-right: 6rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }

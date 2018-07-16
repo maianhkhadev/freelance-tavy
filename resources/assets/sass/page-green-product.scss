@@ -1,0 +1,52 @@
+.page-green-product {
+
+  .page-header {
+    background-image: url('~/images/page-green-product/page-header-bim.jpg');
+  }
+
+  .page-content {
+
+    section {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+
+      .section-header {
+        margin-bottom: 4rem;
+
+        h2 {
+          color: #4f4432;
+          font-size: 3rem;
+          font-family: 'Merriweather';
+          font-weight: 900;
+          margin-bottom: unset;
+        }
+      }
+
+      p {
+        color: #4f4432;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+        line-height: 2;
+      }
+
+      .dsadsa {
+        width: 100%;
+        height: 5rem;
+      }
+    }
+
+    .deco {
+      width: 33.125%;
+      margin-bottom: 6.25rem;
+
+      @media screen and (max-width: 600px) {
+        width: 100%;
+        margin-bottom: 0.25rem;
+
+        &:last-child {
+          margin-bottom: 6.25rem;
+        }
+      }
+    }
+  }
+}

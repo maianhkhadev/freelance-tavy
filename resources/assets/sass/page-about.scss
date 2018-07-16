@@ -3,4 +3,205 @@
   .page-header {
     background-image: url('~/images/page-about/page-header-bim.jpg');
   }
+
+  .section-01 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .section-header {
+      margin-bottom: 3rem;
+
+      h2 {
+        color: #4f4432;
+        font-size: 3rem;
+        font-family: 'Merriweather';
+        font-weight: 900;
+      }
+    }
+
+    .section-content {
+
+      .hello, .sign {
+        color: #4f4432;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+        font-weight: 900;
+      }
+
+      .img-right {
+        width: 50%;
+        float: right;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+
+        @media screen and (max-width: 600px) {
+          width: 100%;
+          margin-top: unset;
+          margin-left: unset;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .img-left {
+        width: 50%;
+        float: left;
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+
+        @media screen and (max-width: 600px) {
+          width: 100%;
+          margin-top: unset;
+          margin-right: unset;
+          margin-bottom: 1rem;
+        }
+      }
+
+      p {
+        color: #4f4432;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+        line-height: 2;
+      }
+
+      blockquote {
+        color: #4f4432;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+        line-height: 2;
+        border-left: 0.25rem solid #775e4f;
+        padding-left: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  .section-02 {
+    background-color: #7c6354;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .section-header {
+      margin-bottom: 5rem;
+
+      h2 {
+        color: #f6eee0;
+        font-size: 3rem;
+        font-family: 'Merriweather';
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: unset;
+      }
+    }
+
+    .section-content {
+
+      .img-right {
+        width: 50%;
+        float: right;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+
+        @media screen and (max-width: 600px) {
+          width: 100%;
+          margin-top: unset;
+          margin-left: unset;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .img-left {
+        width: 50%;
+        float: left;
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+
+        @media screen and (max-width: 600px) {
+          width: 100%;
+          margin-top: unset;
+          margin-right: unset;
+          margin-bottom: 1rem;
+        }
+      }
+
+      p {
+        color: #e7e4df;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+        line-height: 2;
+      }
+    }
+  }
+
+  .section-03 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .section-header {
+      margin-bottom: 3rem;
+
+      h2 {
+        color: #4f4432;
+        font-size: 3rem;
+        font-family: 'Merriweather';
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: unset;
+        margin-bottom: 1.75rem;
+      }
+
+      p {
+        color: #4f4432;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+        line-height: 2;
+        text-align: center;
+      }
+    }
+
+    .section-content {
+
+      .block-user {
+        margin-bottom: 4rem;
+
+        img {
+          width: 100%;
+          margin-bottom: 1.25rem;
+        }
+
+        .name {
+          color: #7b6644;
+          font-size: 1.25rem;
+          font-family: 'Merriweather';
+          font-weight: 700;
+          font-style: italic;
+          line-height: 2.5;
+        }
+
+        .position {
+          color: #968f84;
+          font-size: 1rem;
+          font-family: 'Merriweather';
+          font-style: italic;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          color: #4f4432;
+          font-size: 1rem;
+          font-family: 'Merriweather';
+          line-height: 2;
+        }
+      }
+
+      blockquote {
+        color: #495345;
+        font-size: 1.5rem;
+        font-family: 'Merriweather';
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+      }
+    }
+  }
 }

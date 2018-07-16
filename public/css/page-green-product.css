@@ -1,0 +1,49 @@
+.page-green-product .page-header {
+  background-image: url("/images/page-green-product/page-header-bim.jpg");
+}
+
+.page-green-product .page-content section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.page-green-product .page-content section .section-header {
+  margin-bottom: 4rem;
+}
+
+.page-green-product .page-content section .section-header h2 {
+  color: #4f4432;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  margin-bottom: unset;
+}
+
+.page-green-product .page-content section p {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+}
+
+.page-green-product .page-content section .dsadsa {
+  width: 100%;
+  height: 5rem;
+}
+
+.page-green-product .page-content .deco {
+  width: 33.125%;
+  margin-bottom: 6.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-green-product .page-content .deco {
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  .page-green-product .page-content .deco:last-child {
+    margin-bottom: 6.25rem;
+  }
+}
+

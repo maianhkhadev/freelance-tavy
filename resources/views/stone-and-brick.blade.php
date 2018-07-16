@@ -69,49 +69,49 @@
 
                 <div class="block-figures">
                   <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
                       </figure>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
                       </figure>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
                       </figure>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
                       </figure>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
                       </figure>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
                       </figure>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
                       </figure>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-6">
                       <figure class="figure">
                         <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/im-01.jpg') }}" alt="">
                         <figcaption>A1 grade & big sizes</figcaption>
@@ -124,17 +124,17 @@
                   <h3>Polished White Marble Slabs are available in various sizes up to gang-saw size:</h3>
 
                   <div class="row">
-                    <div class="col-xl-3 text-center mx-auto">
+                    <div class="col-xl-3 col-6 text-center mx-auto">
                       <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-01.png') }}" alt=""/>
                       <div class="type">Width ranging</div>
                       <div class="size">from 1m to 2m</div>
                     </div>
-                    <div class="col-xl-3 text-center mx-auto">
+                    <div class="col-xl-3 col-6 text-center mx-auto">
                       <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-02.png') }}" alt=""/>
                       <div class="type">Length ranging</div>
                       <div class="size">from 2m to 3m</div>
                     </div>
-                    <div class="col-xl-3 text-center mx-auto">
+                    <div class="col-xl-3 col-6 text-center mx-auto">
                       <img class="" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/size-03.png') }}" alt=""/>
                       <div class="type">Thickness</div>
                       <div class="size">from 1.5m to 5m</div>
@@ -145,9 +145,187 @@
               </div>
               <div id="stone-tab-02" class="tab-pane fade">
                 <h2>White Marble Block</h2>
+
+                <div class="block-figures">
+                  <div class="row">
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-01.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-02.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-03.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-04.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-05.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-06.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-07.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-08.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-09.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-10.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-11.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-12.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-13.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-14.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-15.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-02/im-16.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div id="stone-tab-03" class="tab-pane fade">
                 <h2>White Marble Tiles</h2>
+
+                <div class="block-figures">
+                  <div class="row">
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-01.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-02.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-03.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-04.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-05.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-06.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-07.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-08.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-09.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-10.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-11.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-01/section-02/tab-03/im-12.jpg') }}" alt="">
+                        <figcaption>A1 grade & big sizes</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -158,10 +336,10 @@
         <section class="section-01">
           <div class="container">
             <div class="row">
-              <div class="col-xl-12">
+              <div class="col-xl-10 mx-auto">
                 <h1>Gạch làm tay</h1>
               </div>
-              <div class="col-xl-6">
+              <div class="col-xl-5 ml-auto align-self-center">
                 <p>Gạch bông là sản phẩm được làm bằng tay, hoàn toàn thủ công, vì vậy, viên gạch không thể giống hệt nhau từng viên một. Những sai lệch nhỏ về kích thước, màu sắc, mức độ không hoàn hảo nhỏ, các cạnh gạch không đều là những đặc tính gắn liền với sản phẩm. Chính điều này làm tăng thêm vẻ đẹp tự nhiên mà không làm ảnh hưởng đến chất lượng. Sản xuất gạch bông là một nghệ thuật, được lưu truyền từ đời này qua đời khác. </p>
                 <blockquote>“Mỗi viên gạch ra đời là niềm tự hào của mỗi người thợ, người nghệ nhân.”</blockquote>
               </div>
@@ -169,11 +347,14 @@
                 <img src="{{ asset('images/page-stone-and-brick/tab-02/section-01/im-01.jpg') }}" alt=""/>
               </div>
             </div>
+
+            <div class="space"></div>
+
             <div class="row">
               <div class="col-xl-6">
                 <img class="left" src="{{ asset('images/page-stone-and-brick/tab-02/section-01/im-02.jpg') }}" alt=""/>
               </div>
-              <div class="col-xl-6">
+              <div class="col-xl-5 mr-auto align-self-center">
                 <p>Với họ, viên gạch là thành quả của sự lao động và là một di sản được truyền lại cho tất cả mọi người. Gạch bông không nung chúng tôi cung cấp có thể tái chế và thân thiện với môi trường với những nguyên vật liệu tự nhiên và không sử dụng nhiên liệu đốt trong quá trình sản xuất. Vẫn là những phương pháp sản xuất thủ công truyền thống, nhưng với sự cải tiết vượt bậc về công nghệ và không ngừng học hỏi kỹ- mỹ thuật tiên tiến nên mỗi viên gạch bông được thiết kế và làm ra luôn đem lại điều mới lạ cho không gian của bạn.</p>
               </div>
             </div>
@@ -200,7 +381,7 @@
             </ul>
             <div class="brick-content tab-content">
 
-              <div id="#brick-tab-01" class="tab-pane fade show active">
+              <div id="brick-tab-01" class="tab-pane fade show active">
                 <div class="row">
                   <div class="col-xl-10 mx-auto">
                     <div class="step">
@@ -255,13 +436,163 @@
                 </div>
               </div>
 
-              <div id="#brick-tab-02" class="tab-pane fade">
+              <div id="brick-tab-02" class="tab-pane fade">
               </div>
 
-              <div id="#brick-tab-03" class="tab-pane fade">
+              <div id="brick-tab-03" class="tab-pane fade">
+
+                <div class="block-figures">
+                  <div class="row">
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-01.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-02.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-03.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-04.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-05.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-06.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-07.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-08.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-09.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-10.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-11.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-12.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-13.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-14.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-15.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-03/im-16.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div id="#brick-tab-04" class="tab-pane fade">
+              <div id="brick-tab-04" class="tab-pane fade">
+
+                <div class="block-figures">
+                  <div class="row">
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-01.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-02.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-03.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-04.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-05.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-06.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-07.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-08.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-09.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-10.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-11.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                      <figure class="figure">
+                        <img class="w-100" src="{{ asset('images/page-stone-and-brick/tab-02/section-02/tab-04/im-12.jpg') }}" alt="">
+                      </figure>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -1,0 +1,26 @@
+.page-video {
+
+  .page-header {
+    background-image: url('~/images/page-video/page-header-bim.jpg');
+  }
+
+  section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .section-content {
+
+      .embed-responsive {
+        margin-bottom: 2.5rem;
+      }
+
+      p {
+        color: #462f21;
+        font-size: 1rem;
+        font-family: 'Merriweather';
+        text-align: center;
+        line-height: 2;
+      }
+    }
+  }
+}

@@ -19,7 +19,18 @@ Route::get('/about', function () {
     return view('about');
 });
 
-
 Route::get('/stone-and-brick', function () {
     return view('stone-and-brick');
+});
+
+Route::get('/furniture', function () {
+    return view('furniture');
+});
+
+Route::get('/green-product', function () {
+    return view('green-product');
+});
+
+Route::get('/video', function () {
+    return view('video');
 });

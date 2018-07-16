@@ -16,16 +16,13 @@
           <div class="col-xl-12">
             <div class="slick">
       				<div>
-      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
+                <div class="slide" style="background-image: url({{ asset('images/page-welcome/section-01/slide-01.jpg') }})"></div>
       				</div>
-      				<div>
-      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
+              <div>
+                <div class="slide" style="background-image: url({{ asset('images/page-welcome/section-01/slide-01.jpg') }})"></div>
       				</div>
-      				<div>
-      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
-      				</div>
-      				<div>
-      					<img class="w-100" src="{{ asset('images/page-welcome/section-01/slide-01.jpg') }}" alt=""/>
+              <div>
+                <div class="slide" style="background-image: url({{ asset('images/page-welcome/section-01/slide-01.jpg') }})"></div>
       				</div>
       			</div>
           </div>
@@ -83,17 +80,17 @@
           </div>
           <div class="block-product">
             <div class="row">
-              <div class="col-xl-6">
-                <figure>
-                  <img src="{{ asset('images/page-welcome/section-03/im-02.jpg') }}" alt=""/>
-                </figure>
-              </div>
-              <div class="col-xl-6">
+              <div class="col-xl-6 order-xl-1">
                 <div class="block-content">
                   <h3>Nội thất từ thiên nhiên</h3>
                   <p>Phong cách nội thất Á Đông có xu hướng gấn gũi với thiên nhiên, chính vì thế các đồ nội thất được sử dụng thường có nguồn gốc là các nguyên liệu tự nhiên. Những vật liệu Tavy giới thiệu đến bạn là mây, tre, nứa, trúc … có nguồn gốc Đông Nam Á và được làm tay tinh xảo bởi những Làng nghề thủ công địa phương; vừa có nét đẹp giản dị, mộc mạc nhưng không kém phần tinh tế.</p>
                   <button class="btn btn-main">Xem thêm</button>
                 </div>
+              </div>
+              <div class="col-xl-6">
+                <figure>
+                  <img src="{{ asset('images/page-welcome/section-03/im-02.jpg') }}" alt=""/>
+                </figure>
               </div>
             </div>
           </div>
@@ -151,7 +148,7 @@
           <div class="col-xl-5">
             <div class="section-header">
               <h2>Liên hệ</h2>
-              <h4>Bên cạnh việc cug cấp trực tiếp cho thị trường Đức và Châu Âu các sản phẩm vật liệu xây dựng thiên nhiên</h4>
+              <h4>Bên cạnh việc cung cấp trực tiếp cho thị trường Đức và Châu Âu các sản phẩm vật liệu xây dựng thiên nhiên</h4>
             </div>
             <div class="section-content">
               <form>

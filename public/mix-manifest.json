@@ -5,9 +5,15 @@
     "/css/page-welcome.css": "/css/page-welcome.css",
     "/css/page-about.css": "/css/page-about.css",
     "/css/page-stone-and-brick.css": "/css/page-stone-and-brick.css",
+    "/css/page-furniture.css": "/css/page-furniture.css",
+    "/css/page-green-product.css": "/css/page-green-product.css",
+    "/css/page-video.css": "/css/page-video.css",
     "/js/vendor.js": "/js/vendor.js",
     "/js/page-welcome.js": "/js/page-welcome.js",
+    "/js/page-video.js": "/js/page-video.js",
     "/js/page-stone-and-brick.js": "/js/page-stone-and-brick.js",
+    "/js/page-green-product.js": "/js/page-green-product.js",
+    "/js/page-furniture.js": "/js/page-furniture.js",
     "/js/page-about.js": "/js/page-about.js",
     "/js/manifest.js": "/js/manifest.js"
 }

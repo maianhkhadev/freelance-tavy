@@ -20,28 +20,31 @@
       <header>
         <div class="container-fluid">
           <nav class="navbar navbar-expand-xl">
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a class="navbar-brand" href={{ url("/") }}>LOGO</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="nav-icon collapsed" data-toggle="collapse" data-target="#navbarNav">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div id="navbarNav" class="collapse navbar-collapse">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Về chúng tôi</a>
+                  <a class="nav-link" href={{ url("/about") }}>Về chúng tôi</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Đá - Gạch</a>
+                  <a class="nav-link" href={{ url("/stone-and-brick") }}>Đá - Gạch</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Nội thất từ thiên nhiên</a>
+                  <a class="nav-link" href={{ url("/furniture") }}>Nội thất từ thiên nhiên</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sản phẩm xanh</a>
+                  <a class="nav-link" href={{ url("/green-product") }}>Sản phẩm xanh</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Xúc tiến xuất nhập khẩu</a>
+                  <a class="nav-link" href={{ url("/video") }}>Xúc tiến xuất nhập khẩu</a>
                 </li>
               </ul>
             </div>

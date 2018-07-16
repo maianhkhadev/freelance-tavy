@@ -1,0 +1,71 @@
+.page-furniture .page-header {
+  background-image: url("/images/page-furniture/page-header-bim.jpg");
+}
+
+.page-furniture .page-content {
+  padding-top: 5rem;
+}
+
+.page-furniture .page-content .tab-pane section {
+  margin-bottom: 4rem;
+}
+
+.page-furniture .page-content .tab-pane section .section-header {
+  margin-bottom: 4rem;
+}
+
+.page-furniture .page-content .tab-pane section .section-header h2 {
+  color: #4f4432;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  margin-bottom: unset;
+}
+
+.page-furniture .page-content .tab-pane section p {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+}
+
+.page-furniture .page-content .tab-pane .deco {
+  width: 33.125%;
+  margin-bottom: 6.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-furniture .page-content .tab-pane .deco {
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  .page-furniture .page-content .tab-pane .deco:last-child {
+    margin-bottom: 6.25rem;
+  }
+}
+
+.page-furniture .page-content .section-02 {
+  background-color: #8f7363;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-furniture .page-content .section-02 .section-header {
+  margin-bottom: 5rem;
+}
+
+.page-furniture .page-content .section-02 .section-header h2 {
+  color: #f6eee0;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: unset;
+}
+
+.page-furniture .page-content .section-02 img {
+  max-width: 100%;
+  margin-bottom: 0.25rem;
+}
+

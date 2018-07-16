@@ -2,3 +2,204 @@
   background-image: url("/images/page-about/page-header-bim.jpg");
 }
 
+.page-about .section-01 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-about .section-01 .section-header {
+  margin-bottom: 3rem;
+}
+
+.page-about .section-01 .section-header h2 {
+  color: #4f4432;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+}
+
+.page-about .section-01 .section-content .hello,
+.page-about .section-01 .section-content .sign {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+}
+
+.page-about .section-01 .section-content .img-right {
+  width: 50%;
+  float: right;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-about .section-01 .section-content .img-right {
+    width: 100%;
+    margin-top: unset;
+    margin-left: unset;
+    margin-bottom: 1rem;
+  }
+}
+
+.page-about .section-01 .section-content .img-left {
+  width: 50%;
+  float: left;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-about .section-01 .section-content .img-left {
+    width: 100%;
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: 1rem;
+  }
+}
+
+.page-about .section-01 .section-content p {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+}
+
+.page-about .section-01 .section-content blockquote {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+  border-left: 0.25rem solid #775e4f;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.page-about .section-02 {
+  background-color: #7c6354;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-about .section-02 .section-header {
+  margin-bottom: 5rem;
+}
+
+.page-about .section-02 .section-header h2 {
+  color: #f6eee0;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: unset;
+}
+
+.page-about .section-02 .section-content .img-right {
+  width: 50%;
+  float: right;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-about .section-02 .section-content .img-right {
+    width: 100%;
+    margin-top: unset;
+    margin-left: unset;
+    margin-bottom: 1rem;
+  }
+}
+
+.page-about .section-02 .section-content .img-left {
+  width: 50%;
+  float: left;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .page-about .section-02 .section-content .img-left {
+    width: 100%;
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: 1rem;
+  }
+}
+
+.page-about .section-02 .section-content p {
+  color: #e7e4df;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+}
+
+.page-about .section-03 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-about .section-03 .section-header {
+  margin-bottom: 3rem;
+}
+
+.page-about .section-03 .section-header h2 {
+  color: #4f4432;
+  font-size: 3rem;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: unset;
+  margin-bottom: 1.75rem;
+}
+
+.page-about .section-03 .section-header p {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+  text-align: center;
+}
+
+.page-about .section-03 .section-content .block-user {
+  margin-bottom: 4rem;
+}
+
+.page-about .section-03 .section-content .block-user img {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.page-about .section-03 .section-content .block-user .name {
+  color: #7b6644;
+  font-size: 1.25rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-style: italic;
+  line-height: 2.5;
+}
+
+.page-about .section-03 .section-content .block-user .position {
+  color: #968f84;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.page-about .section-03 .section-content .block-user p {
+  color: #4f4432;
+  font-size: 1rem;
+  font-family: 'Merriweather';
+  line-height: 2;
+}
+
+.page-about .section-03 .section-content blockquote {
+  color: #495345;
+  font-size: 1.5rem;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
